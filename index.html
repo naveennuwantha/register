@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form with Refresh Button</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        iframe {
+            width: 100%;
+            max-width: 640px;
+            height: 687px;
+            border: none;
+        }
+        .refresh-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .refresh-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-XQObR940AJgT-QhzDEPOf0PTIl4HM96LdQgDIUGus1TgIA/viewform?embedded=true"></iframe>
+    <br>
+    <button class="refresh-button" onclick="location.reload()">Refresh Page</button>
+</body>
+</html>
